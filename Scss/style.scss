@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin measure ($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+.header {
+  background-image: url(./img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  max-width: 100%;
+  .top-header {
+    padding-top: 40px;
+    margin-right: 180px;
+  }
+  .about-header {
+    text-transform: uppercase;
+    color: #39474E;
+    padding-right: 20px;
+    font: {
+      size: 12x;
+      family: "Roboto-Regular"
+    }
+  }
+  .sign-header {
+    border: 2px solid #8BC34A;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8BC34A;
+    font: {
+      size: 12x;
+      family: "Roboto-Regular"
+    }
+  }
+  .logo-header {
+    padding-top: 110px;
+  }
+  .logo {
+    @include measure (250px,70px);
+  } 
+  .icon-header {
+    color: #283238;
+    font-size: 48px;
+    padding: 15px 330px 0 330px;
+  }
+  .icon-name {
+    color: #283238;
+    padding: 0 300px 0 300px;
+      font: {
+        family: 'Roboto-Light';
+        size: 36px;
+      }
+  }
+  .name {
+    text-align: center;
+    width: 31%;
+  }
+  .slogan {
+    color: #283238;
+    padding-top: 30px;
+    font: {
+      size: 18px;
+      family: 'Roboto-Italic';
+    }
+  }
+  .button-header {
+    padding-top: 30px;
+  }
+  .button {
+    border-radius: 100px;
+    border: 1px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51);
+    @include measure (195px,50px);
+    font-size: 14px;
+  }
+}
+
+.main {
+  max-width: 100%;
+  .section-main {
+    padding: 100px 18% 100px 18%;
+    box-shadow:  0px 10px 10px -5px #CCCCCC;
+  }
+  .bookmark {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 36px;
+    color:#444444;
+    margin-top: -5px;
+    padding-left: 15px;
+  }
+  .slogan {
+    color: #283238;
+    padding-top: 15px;
+    font: {
+      size: 18px;
+      family: 'Roboto-Italic';
+    }
+  }
+  .part-img {
+    padding-top: 40px;
+    .img-main {
+      width: 100%;
+      height: 371px;
+    }
+  }
+  .part-text {
+    padding-top: 40px;
+    text-align: justify;
+    line-height: 30px;
+    font: {
+      size: 18px;
+      family: 'Roboto-Regular';
+    }
+  }
+  .button-main {
+    padding-top: 50px;
+  }
+  .button {
+    border-radius: 100px;
+    border: 1px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #429321;
+    background-image: linear-gradient(to right, #429321, #B4EC51);
+    @include measure (195px,50px);
+    font-size: 14px;
+  }
+  .part-main {
+    padding: 100px 18% 100px 18%;
+  }
+  .symbol-main {
+    background-color: #429321;
+    background-image: linear-gradient(to right,#429321, #B4EC51);
+    height: 322px;
+  }
+  .part-symbol {
+    padding: 70px 18% 0 18%;
+  } 
+  .ti-icon {
+    border: 2.5px solid white;
+    border-radius: 100%;
+    @include measure (107px, 107px);
+    color: white;
+    font-size: 36px;
+    padding-top: 16px;
+  }
+  
+  .number {
+    background-color: #7CB342;
+    border: 2.5px solid white;
+    border-radius: 100%;
+    @include measure (43px,43px);
+    margin-top: -30px;
+    font-size: 24px;
+    color: white;
+    margin-left: 30px;
+  }  
+  
+  .name-symbol {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    padding-top: 12px;
+    line-height: 5px;
+  }
+  .check-txt {
+    padding-top: 100px;
+  }
+  .ti-box {
+    font-size: 18px;
+    color: #8BC34A;
+  }
+  .text-member {
+    padding-left: 15px;
+    text-align: justify;
+    color: #283238;
+    font: {
+      size: 14px;
+      family: 'Roboto-Regular';
+    }
+  }
+  .our-customer {
+    background-image: url(./img/rectangle.png);
+    height: 544px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .part-ourcustomer {
+    padding: 50px 18% 0 18%;
+  }
+  .top-our {
+    color: #ffffff;
+    font: {
+      size: 48px;
+      family: 'Roboto-Light';
+    }
+  }
+  .infor-ourcustomer {
+    padding-top: 38px;
+  }
+  .user-picture {
+    @include measure(79px, 80px);
+  }
+  .picture-name {
+    color: #ffffff;
+    padding-top: 10px;
+    line-height: 2px;
+    font: {
+      size: 13px;
+      family: 'Roboto-Regular';
+    }
+  }
+  .customer-slide {
+    padding: 0 45% 0 45%;
+    padding-top: 20px;
+  } 
+  .img-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    @include measure (10px,10px);
+    background-color: #C0C0C0;
+  }
+  .next-slide {
+    border: 0.5px solid #C0C0C0;
+    border-radius: 100%;
+    @include measure (10px,10px);
+  }
+  .icon-left {
+    font-size: 55px;
+    color: #5b5b5c;
+  }
+  .icon-right {
+    font-size: 55px;
+    color: #5b5b5c;
+    padding-top: 130px;
+  }
+  .text-ourcustomer {
+    color: #d0d8dc;
+    font-size: 15px;
+    text-align: justify;
+    width: 580px;
+    line-height: 35px;
+    padding-top: 55px; 
+  }
+}
+
+.footer {
+  height: 179px;
+  background-color: #39474E;
+  width: 100%;
+  .section-footer {
+    padding: 45px 18% 0 18%;
+  }
+  .img-hapo {
+    @include measure (96px, 29px);
+  }
+  .top-footer {
+    @include measure (96px, 24px);
+    color: #8BC34A;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .coppy-right {
+    color: white;
+    font-size: 10px;
+    padding-top: 30px;
+    padding-left: 5px;
+    width: 113px;
+  }
+  .contact-about {
+    font-size: 10px;
+    text-align: justify;
+    @include measure(80px, 40px);
+    color: white;
+  }
+  .icon-footer { 
+    width: 150px;
+    margin-left: -30px;
+    color: #8BC34A;
+    font-size: 12px;
+    padding-top: 30px;
+  }
+}
