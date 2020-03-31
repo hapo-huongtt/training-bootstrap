@@ -1,0 +1,113 @@
+body {
+  width: 100%;
+  font-family: 'roboto';
+  overflow-x: hidden;
+  margin: 0;
+}
+
+@mixin measure ($w, $h){
+  width:$w;
+  height: $h;
+}
+
+.header {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.about-header {
+  text-transform: uppercase;
+  color: #39474E;
+  font: {
+    size: 12x;
+    family: "Roboto-Regular"
+  }
+}
+
+.sign-header {
+  border: 2px solid #8BC34A;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8BC34A;
+  font: {
+    size: 12x;
+    family: "Roboto-Regular"
+  }
+}
+
+.icon-header {
+  color:#283238;
+}
+
+.icon-name {
+  color:#283238;
+}
+
+.slogan {
+  color:#283238;
+}
+
+.button {
+  border-radius: 100px;
+  border: 1px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #429321;
+  background-image: linear-gradient(to right, #429321, #B4EC51);
+}
+
+.section-main {
+  box-shadow:  0px 10px 10px -5px #CCCCCC;
+}
+
+.bookmark {
+  color:#444444;
+}
+
+span {
+  color:#444444;
+}
+
+.txt-section {
+  text-align: justify;
+}
+
+.symbol-main {
+  background-color: #429321;
+  background-image: linear-gradient(to right,#429321, #B4EC51);
+}
+
+.ti-icon {
+  border: 2.5px solid white;
+  border-radius: 100%;
+  @include measure (107px, 107px);
+  color: white;
+  font-size: 36px;
+  padding-top: 16px;
+}
+
+.number {
+  background-color: #7CB342;
+  border: 2.5px solid white;
+  border-radius: 100%;
+  @include measure (43px,43px);
+  margin-top: -30px;
+  font-size: 24px;
+  color: white;
+  margin-left: 30px;
+}  
+
+.name-symbol {
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  padding-top: 12px;
+  line-height: 5px;
+}
+
+.ti-box {
+  color: #B4EC51;
+}

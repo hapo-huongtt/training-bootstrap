@@ -1,0 +1,729 @@
+@mixin measure ($w, $h){
+  width:$w;
+  height: $h;
+}
+
+@media screen and (max-width: 1369px) {
+  .header {
+    background-image: url(./img-PC/banner.png);
+    height: 700px;
+    .top-header {
+      padding: 30px 180px 0 0;
+    }
+    .about-header {
+      padding: 5px 15px 0 0;
+    }
+    .sign-header {
+      padding-top: 5px;
+      @include measure(82px,36px);
+    }
+    .logo-header {
+      padding-top: 90px;
+    }
+    .logo {
+      @include measure (256px, 77px);
+    }
+    .icon-header {
+      font-size: 48px;
+      padding: 15px 330px 0 330px;
+    }
+    .icon-name {
+      padding: 0 300px 0 300px;
+      font: {
+        family: 'Roboto-Light';
+        size: 36px;
+      }
+    }
+    .name {
+      text-align: center;
+      width: 31%;
+    }
+    .slogan {
+      font: {
+        size: 24px;
+        family: 'Roboto-Italic';
+      }
+      padding-top: 15px;
+    }
+    .button-header {
+      padding-top: 53px;
+    }
+    .button {
+      @include measure (195px,50px);
+      font-size: 14px;
+    }
+  }
+  .main {
+    max-width: 100%;
+    .part-img {
+      max-width: 50%;
+    }
+    .img-main {
+      @include measure(400px, 300px);
+    }
+    .section-main {
+      padding: 100px 18% 100px 18%;
+    }
+    .bookmark {
+      font-size: 30px;
+    }
+    span{
+      font-size: 36px;
+      color:#444444;
+      margin-top: -5px;
+      padding-left: 15px;
+    }
+    .slogan {
+      font: {
+        size: 13px;
+        family: 'Roboto-Italic';
+    }
+      padding-top: 10px;
+    }
+    .txt-section {
+      font: {
+        size: 12px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .buton-main {
+      padding-top: 10px;
+    }
+    .button {
+      @include measure (150px,40px);
+      font-size: 14px; 
+    }
+    .part-main {
+      padding: 100px 18% 100px 18%;
+    }
+    .symbol-main {
+      height: 322px;
+    }
+    .part-symbol {
+      padding: 70px 18% 0 18%;
+    } 
+    .main-member {
+      padding: 100px 18% 100px 18%;
+    }
+    .check-txt {
+      padding-top: 10px;
+    }
+    .ti-box {
+      font-size: 18px;
+    }
+    .txt-member {
+      text-align: justify;
+      padding-left: 15px;
+      font: {
+        size: 11px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .customer-main {
+      padding: 100px 18% 100px 18%;
+      box-shadow:  0px -10px 10px -5px #CCCCCC;
+    }
+    .our-customer {
+      background-image: url(./img-PC/rectangle.png);
+      height: 544px;
+    }
+    .part-ourcustomer {
+      padding: 50px 18% 0 18%;
+    }
+    .top-our {
+      color: #ffffff;
+      font: {
+        size: 48px;
+        family: 'Roboto-Light';
+      }
+    }
+    .infor-ourcustomer {
+      padding-top: 38px;
+    }
+    .user-picture {
+      @include measure(79px, 80px);
+    }
+    .picture-name {
+      color: #ffffff;
+      padding-top: 10px;
+      line-height: 2px ;
+      font: {
+        size: 13px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .customer-slide {
+      padding: 0 45% 0 45%;
+      padding-top: 20px;
+    } 
+    .img-slide {
+      border: 0.5px solid #C0C0C0;
+      border-radius: 100%;
+      @include measure (8px,8px);
+      background-color: #C0C0C0;
+    }
+    .next-slide {
+      border: 0.5px solid #C0C0C0;
+      border-radius: 100%;
+      @include measure (8px,8px);
+    }
+    .icon-left {
+      font-size: 55px;
+      color: #5b5b5c;
+    }
+    .icon-right {
+      font-size: 55px;
+      color: #5b5b5c;
+      padding-top: 130px;
+    }
+    .text-ourcustomer {
+      color: #d0d8dc;
+      font-size: 15px;
+      text-align: justify;
+      width: 580px;
+      line-height: 35px;
+      padding-top: 55px; 
+    }
+  }
+  .footer {
+    height: 179px;
+    background-color:#39474E;
+    width: 100%;
+    font-family: 'Roboto-Medium';
+  }
+  .part-footer {
+    padding: 45px 100px 0 100px;
+  }
+  .img-hapo {
+    @include measure(90px, 20px);
+  }
+  .top-footer {
+    color: #8BC34A;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .coppy-right {
+    color: white;
+    font-size: 10px;
+    padding-top: 30px;
+  }
+  .contact-about {
+    font-size: 10px;
+    text-align: justify;
+    @include measure(80px, 40px);
+    color: white;
+  }
+  .icon-footer { 
+    color: #8BC34A;
+    font-size: 13px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-image: url(./img-TB/banner.png);
+    height: 425px;
+    .top-header {
+      padding-top: 30px;
+      margin-right: -160px;
+    }
+    .about-header {
+      padding: 5px 10px 0 0;
+    }
+    .sign-header {
+      padding-top: 5px;
+      @include measure(82px,36px);
+    }
+    .logo-header {
+      padding-top: 2px;
+    }
+    .logo {
+      @include measure (144px, 43px);
+    }
+    .icon-header {
+      font-size: 24px;
+      padding: 35px 130px 0 130px;
+    }
+    .icon-name {
+      padding: 0 90px 0 90px;
+      font: {
+        family: 'Roboto-Light';
+        size: 24px;
+      }
+    }
+    .name {
+      text-align: center;
+      width: 29%;
+    }
+    .slogan {
+      font: {
+        size: 15px;
+        family: 'Roboto-Italic';
+      }
+      color:#283238;
+      padding-top: 10px;
+    }
+    .button-header {
+      padding-top: 15px;
+    }
+    .button {
+      @include measure (144px,45px);
+      font-size: 14px;
+    }
+  }
+  .main-TB {
+    max-width: 100%;
+    .part-img {
+      max-width: 50%;
+    }
+    .img-main {
+      @include measure(356px,226px);
+    }
+    .section-main {
+      padding: 50px 10px 50px 10px;
+    }
+    .bookmark {
+      font-size: 30px;
+    }
+    span {
+      font-size: 36px;
+      margin-top: -5px;
+      padding-left: 15px;
+    }
+    .slogan {
+      font: {
+        size: 14px;
+        family: 'Roboto-Italic';
+      }
+      padding-top: 15px;
+    }
+    .part-text {
+      padding-left: 20px;
+      text-align: justify;
+      line-height: 21px;
+      color:#283238;
+      font: {
+        size: 14px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .buton-main {
+      padding-top: 30px;
+    }
+    .button {
+      @include measure (150px,40px);
+      font-size: 14px; 
+    }
+    .part-main {
+      padding: 50px 10px 50px 10px;
+    }
+    .part-daily {
+      padding-right: 20px;
+      text-align: justify;
+      line-height: 21px;
+      color:#283238;
+      font: {
+        size: 14px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .symbol-main {
+      height: 322px;
+    }
+    .part-symbol {
+      padding: 50px 10px 50px 10px;
+    }
+  
+    .member-main {
+      padding: 50px 10px 50px 10px;
+    }
+    .check-txt {
+      padding: 10px 20px 0 0 ;
+    }
+    .ti-box {
+      font-size: 18px;
+      color: #8BC34A;
+    }
+    .text-member {
+      padding-left: 15px;
+      text-align: justify;
+      color:#283238;
+      font: {
+        size: 14px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .customer-main {
+      padding: 50px 10px 50px 10px;
+    }
+    .check-box {
+      padding-left: 20px;
+    }
+    .our-customer {
+      background-image: url(./img-TB/user-banner.png);
+      max-width: 100%;
+      height: 544px;
+    }
+    .part-ourcustomer {
+      padding: 50px 10px 0 10px;
+    }
+    .top-our {
+      color: #ffffff;
+      font: {
+        size: 36px;
+        family: 'Roboto-Light';
+      }
+    }
+    .infor-ourcustomer {
+      padding-top: 20px;
+    }
+    .user-picture {
+      @include measure(77px, 80px);
+    }
+    .picture-name {
+      color: #ffffff;
+      padding-top: 10px;
+      line-height: 2px ;
+      font: {
+        size: 13px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .customer-slide {
+      padding: 0 45% 0 45%;
+      padding-top: 10px;
+    } 
+    .img-slide {
+      border: 0.5px solid #C0C0C0;
+      border-radius: 100%;
+      @include measure (8px,8px);
+      background-color: #C0C0C0;
+    }
+    .next-slide {
+      border: 0.5px solid #C0C0C0;
+      border-radius: 100%;
+      @include measure (8px,8px);
+    }
+    .icon-left {
+      font-size: 55px;
+      color: #5b5b5c;
+    }
+    .icon-right {
+      font-size: 55px;
+      color: #5b5b5c;
+      padding-top: 140px;
+    }
+    .text-ourcustomer {
+      color: #d0d8dc;
+      font-size: 15px;
+      text-align: justify;
+      width: 500px;
+      line-height: 35px;
+      padding-top: 55px; 
+    }
+  }
+  .footer {
+    @include measure(100%, 179px);
+    background-color:#39474E;
+    font-family: 'Roboto-Medium';
+  } 
+  .part-footer {
+    padding: 45px 0px 0 0px;
+  }
+  .logo-footer {
+      @include measure(90px, 20px);
+  }
+  .top-footer {
+    color: #8BC34A;
+    text-transform: uppercase;
+    font-size: 11px;
+    width: 86px;
+  }
+  .coppy-right {
+    color: white;
+    font-size: 10px;
+    padding-top: 30px;
+  }
+  .contact-about {
+    font-size: 10px;
+    text-align: justify;
+    @include measure(76px, 40px);
+    color: white;
+  }
+  .icon-footer { 
+    color: #8BC34A;
+    font-size: 11px;
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    background-image: url(./img-MB/banner.png);
+    height: 240px;
+    .top-header {
+      padding-top: 9px;
+      margin-right: -175px;
+    }
+    .about-header {
+      padding-top: 5px;
+    }
+    .sign-header {
+      padding-top: 5px;
+      @include measure(70px,36px);
+    }
+    .logo-header {
+      padding-top: 1px;
+    }
+    .logo {
+      @include measure (96px, 29px);
+    }
+    .icon-header {
+      color:#283238;
+      font-size: 18px;
+      padding: 2px 30px 0 30px;
+    }
+    .icon-name {
+      color:#283238;
+      padding: 0 20px 0 20px;
+      font: {
+        family: 'Roboto-Light';
+        size: 18px;
+      }
+    }
+    .name {
+      text-align: center;
+      width: 31%;
+    }
+    .slogan {
+      font: {
+        size: 11px;
+        family: 'Roboto-Italic';
+      }
+      color:#283238;
+      padding-top: 2px;
+    }
+    .button-header {
+      text-align: center;
+      padding-top: 1px;
+    }
+    .button {
+      border-radius: 100px;
+      border: 1px;
+      @include measure (130px,30px);
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+      background-color: #429321;
+      background-image: linear-gradient(to right, #429321, #B4EC51);
+      text-align: center;
+    }
+  }
+  .main-MB {
+    max-width: 100%;
+    .section-main {
+      padding: 30px 0px 30px 0px;
+      box-shadow:  0px 10px 10px -5px #CCCCCC;
+    }
+    .bookmark {
+      font-size: 20px;
+      color: #444444;
+    }
+    span {
+      padding-left: 10px;
+      margin-top: -5px;
+      color: #444444;
+      font: {
+        size: 24px;
+        family: 'Roboto-Light';
+      }
+    }
+    .slogan {
+      font: {
+        size: 13px;
+        family: 'Roboto-Italic';
+      }
+      color:#283238;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .part-text {
+      padding-top: 10px;
+      text-align: justify;
+      line-height: 21px;
+      color:#283238;
+      font: {
+        size: 13px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .pragraph-img {
+      padding-top: 10px;
+    }
+    .img-main {
+      @include measure(400px, 308px);
+    }
+    .button-main {
+      padding-top: 20px;
+    }
+    .button {
+      border-radius: 100px;
+      border: 1px;
+      @include measure (144px,40px);
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
+      background-color: #429321;
+      background-image: linear-gradient(to right, #429321, #B4EC51);
+    }
+    .part-main {
+      padding: 30px 0 30px 0;
+    }
+    .symbol-main {
+      background-color: #429321;
+      background-image: linear-gradient(to right,#429321, #B4EC51);
+      justify-content: center;
+      height: 296px;
+    }
+    .part-symbol {
+      padding: 30px 0 30px 0;
+    }
+    .customer-slide {
+      padding: 0 42% 0 42%;
+      padding-top: 20px;
+    } 
+    .img-slide {
+      border: 0.5px solid #ffffff;
+      border-radius: 100%;
+      @include measure (10px,10px);
+      background-color: #ffffff;
+    }
+    .next-slide {
+      border: 0.5px solid #ffffff;
+      border-radius: 100%;
+      @include measure (10px, 10px);
+    }
+    .check-txt {
+      padding-top: 20px;
+    }
+    .ti-box {
+      font-size: 18px;
+      color: #8BC34A;
+    }
+    .text-member {
+      padding-left: 15px;
+      text-align: justify;
+      color:#283238;
+      font: {
+        size: 13px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .our-customer {
+      background-image: url(./img-MB/user-banner.png);
+      height: 525px;
+    }
+    .part-ourcustomer {
+      padding-top: 24px;
+    }
+    .top-our {
+      color: #ffffff;
+      font: {
+        size: 24px;
+        family: 'Roboto-Light';
+      }
+    }
+    .infor-ourcustomer {
+      padding-top: 20px;
+    }
+    .user-picture {
+      @include measure(77px, 80px);
+    }
+    .picture-name {
+      color: #ffffff;
+      padding-top: 10px;
+      line-height: 2px ;
+      font: {
+        size: 13px;
+        family: 'Roboto-Regular';
+      }
+    }
+    .icon-left {
+      font-size: 48px;
+      color: #5b5b5c;
+    }
+    .text-ourcustomer {
+      color: #C0C0C0;
+      text-align: justify;
+      line-height: 25px;
+      font: {
+        size: 14px;
+        family: 'Roboto-Light';
+      }
+    }
+    .icon-right {
+      margin-top: -20px;
+      font-size: 48px;
+      color: #5b5b5c;
+    }
+  }
+  .footer {
+    max-width: 100%;
+    background-color:#39474E;
+    height: 209px;
+  }
+  .part-footer {
+    padding: 24px 0px 24px 0px;
+  }
+  .img-hapo {
+    @include measure(96px, 24px);
+  }
+  .top-footer {
+    text-transform: uppercase;
+    color: #8BC34A;
+    padding-top: 5px;
+    @include measure(96px, 24px);
+    font: {
+      size: 11px;
+      family: 'Roboto-Medium';
+    }
+  }
+  .contact-about {
+    line-height: 20px;
+    color: #ffffff;
+    @include measure(90px, 20px);
+    font: {
+      size: 10px;
+      family: 'Roboto-Medium';
+    }
+  }
+  .contact-us {
+    line-height: 30px;
+    color: #ffffff;
+    @include measure(75px, 20px);
+    font: {
+      size: 10px;
+      family: 'Roboto-Medium';
+    }
+  }
+  .bottom {
+    padding-top: 30px;
+  }
+  .icon-footer {
+    color: #8BC34A;
+    font-size: 13px;
+    padding-top: 50px;
+    width: 40%;
+    padding-top: 80px
+  }
+  .coppy-right {
+    color: #ffffff;
+    padding-top: 80px;
+    margin-left: 40px;
+    font: {
+      size: 10px;
+      family: 'Roboto-Medium';
+    }
+  }
+}
