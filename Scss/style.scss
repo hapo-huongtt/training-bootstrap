@@ -5,9 +5,9 @@ body {
   margin: 0;
 }
 
-@mixin measure ($w, $h){
-  width:$w;
-  height: $h;
+@mixin measure ($w, $h) {
+   width: $w;
+   height: $h;
 }
 
 .header {
@@ -39,15 +39,15 @@ body {
 }
 
 .icon-header {
-  color:#283238;
+  color: #283238;
 }
 
 .icon-name {
-  color:#283238;
+  color: #283238;
 }
 
 .slogan {
-  color:#283238;
+  color: #283238;
 }
 
 .button {
@@ -64,10 +64,10 @@ body {
 }
 
 .bookmark {
-  color:#444444;
+  color: #444444;
 }
 
-span {
+.title {
   color:#444444;
 }
 

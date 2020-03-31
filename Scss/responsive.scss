@@ -1,5 +1,5 @@
-@mixin measure ($w, $h){
-  width:$w;
+@mixin measure ($w, $h) {
+  width: $w;
   height: $h;
 }
 
@@ -53,6 +53,7 @@
       font-size: 14px;
     }
   }
+  
   .main {
     max-width: 100%;
     .part-img {
@@ -67,7 +68,7 @@
     .bookmark {
       font-size: 30px;
     }
-    span{
+    .title {
       font-size: 36px;
       color:#444444;
       margin-top: -5px;
@@ -146,7 +147,7 @@
     .picture-name {
       color: #ffffff;
       padding-top: 10px;
-      line-height: 2px ;
+      line-height: 2px;
       font: {
         size: 13px;
         family: 'Roboto-Regular';
@@ -185,9 +186,10 @@
       padding-top: 55px; 
     }
   }
+
   .footer {
     height: 179px;
-    background-color:#39474E;
+    background-color: #39474E;
     width: 100%;
     font-family: 'Roboto-Medium';
   }
@@ -195,7 +197,7 @@
     padding: 45px 100px 0 100px;
   }
   .img-hapo {
-    @include measure(90px, 20px);
+    @include measure (90px, 20px);
   }
   .top-footer {
     color: #8BC34A;
@@ -261,7 +263,7 @@
         size: 15px;
         family: 'Roboto-Italic';
       }
-      color:#283238;
+      color: #283238;
       padding-top: 10px;
     }
     .button-header {
@@ -272,13 +274,14 @@
       font-size: 14px;
     }
   }
+
   .main-TB {
     max-width: 100%;
     .part-img {
       max-width: 50%;
     }
     .img-main {
-      @include measure(356px,226px);
+      @include measure (356px, 226px);
     }
     .section-main {
       padding: 50px 10px 50px 10px;
@@ -286,7 +289,7 @@
     .bookmark {
       font-size: 30px;
     }
-    span {
+    .title {
       font-size: 36px;
       margin-top: -5px;
       padding-left: 15px;
@@ -302,7 +305,7 @@
       padding-left: 20px;
       text-align: justify;
       line-height: 21px;
-      color:#283238;
+      color: #283238;
       font: {
         size: 14px;
         family: 'Roboto-Regular';
@@ -312,7 +315,7 @@
       padding-top: 30px;
     }
     .button {
-      @include measure (150px,40px);
+      @include measure (150px, 40px);
       font-size: 14px; 
     }
     .part-main {
@@ -322,7 +325,7 @@
       padding-right: 20px;
       text-align: justify;
       line-height: 21px;
-      color:#283238;
+      color: #283238;
       font: {
         size: 14px;
         family: 'Roboto-Regular';
@@ -339,7 +342,7 @@
       padding: 50px 10px 50px 10px;
     }
     .check-txt {
-      padding: 10px 20px 0 0 ;
+      padding: 10px 20px 0 0;
     }
     .ti-box {
       font-size: 18px;
@@ -348,7 +351,7 @@
     .text-member {
       padding-left: 15px;
       text-align: justify;
-      color:#283238;
+      color: #283238;
       font: {
         size: 14px;
         family: 'Roboto-Regular';
@@ -379,12 +382,12 @@
       padding-top: 20px;
     }
     .user-picture {
-      @include measure(77px, 80px);
+      @include measure (77px, 80px);
     }
     .picture-name {
       color: #ffffff;
       padding-top: 10px;
-      line-height: 2px ;
+      line-height: 2px;
       font: {
         size: 13px;
         family: 'Roboto-Regular';
@@ -397,13 +400,13 @@
     .img-slide {
       border: 0.5px solid #C0C0C0;
       border-radius: 100%;
-      @include measure (8px,8px);
+      @include measure (8px, 8px);
       background-color: #C0C0C0;
     }
     .next-slide {
       border: 0.5px solid #C0C0C0;
       border-radius: 100%;
-      @include measure (8px,8px);
+      @include measure (8px, 8px);
     }
     .icon-left {
       font-size: 55px;
@@ -423,16 +426,17 @@
       padding-top: 55px; 
     }
   }
+
   .footer {
-    @include measure(100%, 179px);
-    background-color:#39474E;
+    @include measure (100%, 179px);
+    background-color: #39474E;
     font-family: 'Roboto-Medium';
   } 
   .part-footer {
     padding: 45px 0px 0 0px;
   }
   .logo-footer {
-      @include measure(90px, 20px);
+    @include measure(90px, 20px);
   }
   .top-footer {
     color: #8BC34A;
@@ -448,7 +452,7 @@
   .contact-about {
     font-size: 10px;
     text-align: justify;
-    @include measure(76px, 40px);
+    @include measure (76px, 40px);
     color: white;
   }
   .icon-footer { 
@@ -471,7 +475,7 @@
     }
     .sign-header {
       padding-top: 5px;
-      @include measure(70px,36px);
+      @include measure (70px, 36px);
     }
     .logo-header {
       padding-top: 1px;
@@ -505,35 +509,25 @@
       padding-top: 2px;
     }
     .button-header {
-      text-align: center;
       padding-top: 1px;
     }
     .button {
-      border-radius: 100px;
-      border: 1px;
-      @include measure (130px,30px);
-      color: white;
+      @include measure (130px,30px);;
       font-size: 12px;
-      text-transform: uppercase;
-      background-color: #429321;
-      background-image: linear-gradient(to right, #429321, #B4EC51);
-      text-align: center;
     }
   }
+
   .main-MB {
     max-width: 100%;
     .section-main {
       padding: 30px 0px 30px 0px;
-      box-shadow:  0px 10px 10px -5px #CCCCCC;
     }
     .bookmark {
       font-size: 20px;
-      color: #444444;
     }
-    span {
+    .title {
       padding-left: 10px;
       margin-top: -5px;
-      color: #444444;
       font: {
         size: 24px;
         family: 'Roboto-Light';
@@ -544,7 +538,6 @@
         size: 13px;
         family: 'Roboto-Italic';
       }
-      color:#283238;
       text-align: center;
       padding-top: 10px;
     }
@@ -552,7 +545,7 @@
       padding-top: 10px;
       text-align: justify;
       line-height: 21px;
-      color:#283238;
+      color: #283238;
       font: {
         size: 13px;
         family: 'Roboto-Regular';
@@ -568,22 +561,13 @@
       padding-top: 20px;
     }
     .button {
-      border-radius: 100px;
-      border: 1px;
       @include measure (144px,40px);
-      color: white;
       font-size: 14px;
-      text-transform: uppercase;
-      background-color: #429321;
-      background-image: linear-gradient(to right, #429321, #B4EC51);
     }
     .part-main {
       padding: 30px 0 30px 0;
     }
     .symbol-main {
-      background-color: #429321;
-      background-image: linear-gradient(to right,#429321, #B4EC51);
-      justify-content: center;
       height: 296px;
     }
     .part-symbol {
@@ -668,22 +652,23 @@
       color: #5b5b5c;
     }
   }
+
   .footer {
     max-width: 100%;
-    background-color:#39474E;
+    background-color: #39474E;
     height: 209px;
   }
   .part-footer {
     padding: 24px 0px 24px 0px;
   }
   .img-hapo {
-    @include measure(96px, 24px);
+    @include measure (96px, 24px);
   }
   .top-footer {
     text-transform: uppercase;
     color: #8BC34A;
     padding-top: 5px;
-    @include measure(96px, 24px);
+    @include measure (96px, 24px);
     font: {
       size: 11px;
       family: 'Roboto-Medium';
@@ -692,7 +677,7 @@
   .contact-about {
     line-height: 20px;
     color: #ffffff;
-    @include measure(90px, 20px);
+    @include measure (90px, 20px);
     font: {
       size: 10px;
       family: 'Roboto-Medium';
@@ -701,7 +686,7 @@
   .contact-us {
     line-height: 30px;
     color: #ffffff;
-    @include measure(75px, 20px);
+    @include measure (75px, 20px);
     font: {
       size: 10px;
       family: 'Roboto-Medium';
