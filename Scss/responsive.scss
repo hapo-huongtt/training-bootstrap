@@ -115,21 +115,29 @@
   }
 
   .footer {
-    height: 179px;
     .section-footer {
-      padding: 45px 10px 0 10px;
+      padding: 45px 0px 0 0px;
     }
-    .img-hapo{
+    .logo-footer {
       @include measure(90px, 20px);
     }
+    .top-footer {
+      font-size: 11px;
+      width: 86px;
+    }
     .coppy-right {
-      padding-left: 5px;
+      font-size: 10px;
+      padding-top: 30px;
     }
     .contact-about {
-      margin-left: -20px;
-      @include measure(80px, 40px);
+      font-size: 10px;
+      @include measure (76px, 40px);
     }
-  }
+    .icon-footer { 
+      font-size: 11px;
+    }
+  } 
+  
 }
 
 @media screen and (max-width: 425px) {
@@ -273,19 +281,28 @@
   }
   .footer {
     height: 209px;
-    .section-footer{
-      padding: 20px 10px 20px 10px;
-      .img-hapo {
-        @include measure (96px, 24px);
-      }
-    } 
+    .section-footer {
+      padding: 24px 10px 24px 10px;
+    }
     .img-hapo {
       @include measure (96px, 24px);
     }
     .top-footer {
-      padding-top: 25px;
-      @include measure (96px, 24px);
       font-size: 11px;
+    }
+    .contact-us {
+      font-size: 10px;
+    }
+    .icon-footer { 
+      font-size: 13px;
+      padding-top: 50px;
+      width: 40%;
+      padding-top: 80px;
+    }
+    .coppy-right {
+      padding-top: 80px;
+      margin-left: 40px;
+      font-size: 10px;
     }
   }
 }
