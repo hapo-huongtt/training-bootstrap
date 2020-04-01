@@ -23,17 +23,20 @@ body {
     text-transform: uppercase;
     color: #39474E;
     padding-right: 20px;
+    padding-top: 5px;
     font: {
       size: 12x;
       family: "Roboto-Regular";
     }
   }
   .sign-header {
+    padding-top: 5px;
     border: 2px solid #8BC34A;
     border-radius: 100px;
     text-align: center;
     text-transform: uppercase;
     color: #8BC34A;
+    @include measure(82px, 36px);
     font: {
       size: 12x;
       family: "Roboto-Regular";
@@ -43,7 +46,7 @@ body {
     padding-top: 110px;
   }
   .logo {
-    @include measure (250px,70px);
+    @include measure (250px,71px);
   } 
   .icon-header {
     color: #283238;
@@ -92,37 +95,37 @@ body {
     box-shadow:  0px 10px 10px -5px #CCCCCC;
   }
   .bookmark {
-    font-size: 30px;
+    font-size: 24px;
   }
   .title {
-    font-size: 36px;
+    font-size: 28px;
     color:#444444;
-    padding-left: 15px;
+    padding-left: 10px;
     margin-top: -5px;
   }
   .slogan {
     color: #283238;
     font: {
-      size: 13px;
+      size: 12px;
       family: 'Roboto-Italic';
     }
   }
   .part-img {
     .img-main {
       width: 100%;
-      height: 371px;
+      height: 260px;
     }
   }
   .part-text {
     text-align: justify;
-    line-height: 22px;
+    line-height: 18px;
     font: {
-      size: 13px;
+      size: 11px;
       family: 'Roboto-Regular';
     }
   }
   .button-main {
-    padding-top: 10px;
+    padding-top: 5px;
   }
   .button {
     border-radius: 100px;
@@ -131,7 +134,7 @@ body {
     text-transform: uppercase;
     background-color: #429321;
     background-image: linear-gradient(to right, #429321, #B4EC51);
-    @include measure (195px,50px);
+    @include measure (117px,30px);
     font-size: 14px;
   }
   .part-main {
@@ -171,7 +174,7 @@ body {
     line-height: 5px;
   }
   .ti-box {
-    font-size: 18px;
+    font-size: 14px;
     color: #8BC34A;
   }
   .text-member {
@@ -179,7 +182,7 @@ body {
     text-align: justify;
     color: #283238;
     font: {
-      size: 12px;
+      size: 11px;
       family: 'Roboto-Regular';
     }
   }
@@ -215,20 +218,20 @@ body {
       family: 'Roboto-Regular';
     }
   }
-  .customer-slide {
+  .ourcustomer-slide {
     padding: 0 45% 0 45%;
     padding-top: 20px;
   } 
-  .img-slide {
+  .ing-slide {
     border: 0.5px solid #C0C0C0;
     border-radius: 100%;
-    @include measure (10px,10px);
+    @include measure (8px,8px);
     background-color: #C0C0C0;
   }
-  .next-slide {
+  .nxt-slide {
     border: 0.5px solid #C0C0C0;
     border-radius: 100%;
-    @include measure (10px,10px);
+    @include measure (8px,8px);
   }
   .icon-left {
     font-size: 55px;
@@ -237,15 +240,14 @@ body {
   .icon-right {
     font-size: 55px;
     color: #5b5b5c;
-    padding-top: 130px;
+    padding-top: 105px;
   }
   .text-ourcustomer {
     color: #d0d8dc;
-    font-size: 15px;
+    font-size: 13px;
     text-align: justify;
     width: 580px;
-    line-height: 35px;
-    padding-top: 55px; 
+    padding-top: 70px;
   }
 }
 
@@ -279,6 +281,8 @@ body {
     font-size: 13px;
     padding-top: 30px;
     color: #8BC34A;
+    width: 145px;
+    margin-left: -30px;
   } 
 }
 
