@@ -71,6 +71,7 @@
       @include measure (144px,45px);
       font-size: 14px;
     }
+    
     .part-main {
       padding: 50px 10px 50px 10px;
     }
@@ -137,6 +138,7 @@
       font-size: 11px;
     }
   } 
+
 }
 
 @media screen and (max-width: 425px) {
@@ -294,12 +296,11 @@
     }
     .icon-footer { 
       font-size: 13px;
-      padding-top: 50px;
       width: 40%;
-      padding-top: 80px;
+      padding-top: 50px;
     }
     .coppy-right {
-      padding-top: 80px;
+      padding-top: 50px;
       margin-left: 40px;
       font-size: 10px;
     }

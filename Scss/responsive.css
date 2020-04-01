@@ -82,19 +82,23 @@
       width: 450px;
       line-height: 20px; }
 
-  .footer {
-    height: 179px; }
-    .footer .section-footer {
-      padding: 45px 10px 0 10px; }
-    .footer .img-hapo {
-      width: 90px;
-      height: 20px; }
-    .footer .coppy-right {
-      padding-left: 5px; }
-    .footer .contact-about {
-      margin-left: -20px;
-      width: 80px;
-      height: 40px; } }
+  .footer .section-footer {
+    padding: 45px 0px 0 0px; }
+  .footer .logo-footer {
+    width: 90px;
+    height: 20px; }
+  .footer .top-footer {
+    font-size: 11px;
+    width: 86px; }
+  .footer .coppy-right {
+    font-size: 10px;
+    padding-top: 30px; }
+  .footer .contact-about {
+    font-size: 10px;
+    width: 76px;
+    height: 40px; }
+  .footer .icon-footer {
+    font-size: 11px; } }
 @media screen and (max-width: 425px) {
   .header {
     height: 213px;
@@ -207,17 +211,21 @@
   .footer {
     height: 209px; }
     .footer .section-footer {
-      padding: 20px 10px 20px 10px; }
-      .footer .section-footer .img-hapo {
-        width: 96px;
-        height: 24px; }
+      padding: 24px 10px 24px 10px; }
     .footer .img-hapo {
       width: 96px;
       height: 24px; }
     .footer .top-footer {
-      padding-top: 25px;
-      width: 96px;
-      height: 24px;
-      font-size: 11px; } }
+      font-size: 11px; }
+    .footer .contact-us {
+      font-size: 10px; }
+    .footer .icon-footer {
+      font-size: 13px;
+      width: 40%;
+      padding-top: 50px; }
+    .footer .coppy-right {
+      padding-top: 50px;
+      margin-left: 40px;
+      font-size: 10px; } }
 
 /*# sourceMappingURL=responsive.css.map */

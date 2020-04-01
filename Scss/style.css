@@ -71,26 +71,22 @@ body {
   .main .title {
     font-size: 36px;
     color: #444444;
-    margin-top: -5px;
-    padding-left: 15px; }
+    padding-left: 15px;
+    margin-top: -5px; }
   .main .slogan {
     color: #283238;
-    padding-top: 15px;
-    font-size: 18px;
+    font-size: 13px;
     font-family: 'Roboto-Italic'; }
-  .main .part-img {
-    padding-top: 40px; }
-    .main .part-img .img-main {
-      width: 100%;
-      height: 371px; }
+  .main .part-img .img-main {
+    width: 100%;
+    height: 371px; }
   .main .part-text {
-    padding-top: 40px;
     text-align: justify;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 22px;
+    font-size: 13px;
     font-family: 'Roboto-Regular'; }
   .main .button-main {
-    padding-top: 50px; }
+    padding-top: 10px; }
   .main .button {
     border-radius: 100px;
     border: 1px;
@@ -133,8 +129,6 @@ body {
     font-size: 16px;
     padding-top: 12px;
     line-height: 5px; }
-  .main .check-txt {
-    padding-top: 100px; }
   .main .ti-box {
     font-size: 18px;
     color: #8BC34A; }
@@ -142,7 +136,7 @@ body {
     padding-left: 15px;
     text-align: justify;
     color: #283238;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Roboto-Regular'; }
   .main .our-customer {
     background-image: url(./img/rectangle.png);
@@ -199,35 +193,259 @@ body {
 .footer {
   height: 179px;
   background-color: #39474E;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Roboto-Medium'; }
   .footer .section-footer {
-    padding: 45px 18% 0 18%; }
+    padding: 45px 100px 0 100px; }
   .footer .img-hapo {
-    width: 96px;
-    height: 29px; }
+    width: 90px;
+    height: 20px; }
   .footer .top-footer {
-    width: 96px;
-    height: 24px;
     color: #8BC34A;
     text-transform: uppercase;
-    font-size: 12px; }
+    font-size: 13px; }
   .footer .coppy-right {
     color: white;
     font-size: 10px;
-    padding-top: 30px;
-    padding-left: 5px;
-    width: 113px; }
+    padding-top: 30px; }
   .footer .contact-about {
     font-size: 10px;
-    text-align: justify;
     width: 80px;
     height: 40px;
     color: white; }
   .footer .icon-footer {
-    width: 150px;
-    margin-left: -30px;
-    color: #8BC34A;
-    font-size: 12px;
+    font-size: 13px;
+    padding-top: 30px;
+    color: #8BC34A; }
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 385px;
+    max-width: 100%; }
+    .header .top-header {
+      padding-top: 20px;
+      margin-right: 10px; }
+    .header .logo-header {
+      padding-top: 40px; }
+    .header .logo {
+      width: 144px;
+      height: 43px; }
+    .header .icon-header {
+      font-size: 24px;
+      padding: 35px 130px 0 130px; }
+    .header .icon-name {
+      padding: 0 90px 0 90px;
+      font-family: 'Roboto-Light';
+      font-size: 24px; }
+    .header .name {
+      text-align: center;
+      width: 29%; }
+    .header .slogan {
+      font-size: 14px; }
+    .header .button-header {
+      padding-top: 5px; }
+    .header .button {
+      width: 144px;
+      height: 45px;
+      font-size: 14px; }
+
+  .main {
+    max-width: 100%; }
+    .main .section-main {
+      padding: 50px 10px 50px 10px; }
+    .main .slogan {
+      font-size: 14px;
+      padding-top: 15px; }
+    .main .part-img {
+      padding-top: 25px; }
+      .main .part-img .img-main {
+        width: 100%;
+        height: 238px; }
+    .main .part-text {
+      padding-top: 25px;
+      line-height: 24px;
+      font-size: 13px; }
+    .main .button-main {
+      padding-top: 30px; }
+    .main .button {
+      width: 144px;
+      height: 45px;
+      font-size: 14px; }
+    .main .part-main {
+      padding: 50px 10px 50px 10px; }
+    .main .symbol-main {
+      height: 322px; }
+    .main .part-symbol {
+      padding: 50px 10px 50px 10px; }
+    .main .check-txt {
+      padding-top: 40px; }
+    .main .text-member {
+      font-size: 13px; }
+    .main .our-customer {
+      height: 425px; }
+    .main .part-ourcustomer {
+      padding: 5px 10px 0 10px; }
+    .main .infor-ourcustomer {
+      padding-top: 5px; }
+    .main .user-picture {
+      width: 77px;
+      height: 80px; }
+    .main .icon-left {
+      font-size: 48px;
+      margin-top: -20px; }
+    .main .icon-right {
+      font-size: 48px;
+      margin-top: -40px; }
+    .main .text-ourcustomer {
+      margin-top: -18px;
+      font-size: 13px;
+      width: 450px;
+      line-height: 20px; }
+
+  .footer .section-footer {
+    padding: 45px 0px 0 0px; }
+  .footer .logo-footer {
+    width: 90px;
+    height: 20px; }
+  .footer .top-footer {
+    font-size: 11px;
+    width: 86px; }
+  .footer .coppy-right {
+    font-size: 10px;
     padding-top: 30px; }
+  .footer .contact-about {
+    font-size: 10px;
+    width: 76px;
+    height: 40px; }
+  .footer .icon-footer {
+    font-size: 11px; } }
+@media screen and (max-width: 425px) {
+  .header {
+    height: 213px;
+    max-width: 100%; }
+    .header .top-header {
+      padding-top: 10px;
+      margin-right: 10px; }
+    .header .about-header {
+      font-size: 10px; }
+    .header .sign-header {
+      font-size: 10px; }
+    .header .logo-header {
+      padding-top: 5px; }
+    .header .logo {
+      width: 96px;
+      height: 29px; }
+    .header .icon-header {
+      font-size: 18px;
+      padding: 2px 30px 0 30px; }
+    .header .icon-name {
+      padding: 0 20px 0 20px;
+      font-size: 18px; }
+    .header .name {
+      text-align: center;
+      width: 31%; }
+    .header .slogan {
+      font-size: 10px;
+      padding-top: 2px; }
+    .header .button-header {
+      padding-top: 1px; }
+    .header .button {
+      width: 100px;
+      height: 30px;
+      font-size: 12px; }
+
+  .main {
+    max-width: 100%; }
+    .main .section-main {
+      padding: 30px 10px 30px 10px; }
+    .main .bookmark {
+      font-size: 20px; }
+    .main .title {
+      padding-left: 10px;
+      margin-top: -5px;
+      font-size: 24px; }
+    .main .slogan {
+      font-size: 11px;
+      padding-top: 5px; }
+    .main .part-img {
+      padding-top: 10px; }
+      .main .part-img .img-main {
+        width: 100%;
+        height: 308px; }
+    .main .part-text {
+      line-height: 21px;
+      padding-top: 20px; }
+    .main .button-main {
+      padding-top: 20px; }
+    .main .button {
+      width: 100px;
+      height: 30px;
+      font-size: 12px; }
+    .main .part-main {
+      padding: 30px 10px 30px 10px; }
+    .main .symbol-main {
+      height: 296px; }
+    .main .part-symbol {
+      padding: 30px 10 30px 10; }
+    .main .customer-slide {
+      padding: 0 40% 0 40%;
+      padding-top: 20px; }
+    .main .img-slide {
+      border: 0.5px solid #C0C0C0;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px;
+      background-color: #C0C0C0; }
+    .main .next-slide {
+      border: 0.5px solid #C0C0C0;
+      border-radius: 100%;
+      width: 10px;
+      height: 10px; }
+    .main .check-txt {
+      padding-top: 20px; }
+    .main .our-customer {
+      height: 325px; }
+    .main .part-ourcustomer {
+      padding: 10px; }
+    .main .top-our {
+      font-size: 24px; }
+    .main .infor-ourcustomer {
+      padding-top: 5px; }
+    .main .user-picture {
+      width: 77px;
+      height: 80px; }
+    .main .customer-slide {
+      padding-top: 5px; }
+    .main .icon-left {
+      font-size: 36px;
+      margin-top: -25px; }
+    .main .icon-right {
+      font-size: 36px;
+      margin-top: -90px; }
+    .main .text-ourcustomer {
+      margin-top: -40px;
+      font-size: 10px;
+      width: 400px;
+      line-height: 14px; }
+
+  .footer {
+    height: 209px; }
+    .footer .section-footer {
+      padding: 24px 10px 24px 10px; }
+    .footer .img-hapo {
+      width: 96px;
+      height: 24px; }
+    .footer .top-footer {
+      font-size: 11px; }
+    .footer .contact-us {
+      font-size: 10px; }
+    .footer .icon-footer {
+      font-size: 13px;
+      width: 40%;
+      padding-top: 50px; }
+    .footer .coppy-right {
+      padding-top: 50px;
+      margin-left: 40px;
+      font-size: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
